@@ -1,0 +1,6 @@
+[submodule "HalmstadLokalerServer"]
+	path = HalmstadLokalerServer
+	url = https://github.com/gobbe05/HalmstadLokalerServer.git
+[submodule "HalmstadLokalerClient"]
+	path = HalmstadLokalerClient
+	url = https://github.com/gobbe05/HalmstadLokalerClient.git
