@@ -2,7 +2,7 @@
     "scripts": {
         "start": "node HalmstadLokalerServer/dist/src/server.js",
         "build": "npm run build --prefix HalmstadLokalerClient && npm run build --prefix HalmstadLokalerServer",
-        "postinstall": "npm install --prefix HalmstadLokalerClient && npm install --prefix HalmstadLokalerServer && npm run build"
+        "postinstall": "git submodule update --init --recursive && npm install --prefix HalmstadLokalerClient && npm install --prefix HalmstadLokalerServer && npm run build"
     },
     "name": "halmstadlokaler",
     "version": "1.0.0",
